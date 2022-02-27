@@ -13,6 +13,7 @@
 		1BBC837227CBBCB300064B89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BBC837027CBBCB300064B89 /* Main.storyboard */; };
 		1BBC837427CBBCB500064B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BBC837327CBBCB500064B89 /* Assets.xcassets */; };
 		1BBC837727CBBCB500064B89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BBC837527CBBCB500064B89 /* LaunchScreen.storyboard */; };
+		1BBC838027CBBDAC00064B89 /* Words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BBC837F27CBBDAC00064B89 /* Words.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1BBC837327CBBCB500064B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BBC837627CBBCB500064B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BBC837827CBBCB500064B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BBC837F27CBBDAC00064B89 /* Words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Words.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		1BBC836927CBBCB300064B89 /* Challenge-Day41 */ = {
 			isa = PBXGroup;
 			children = (
+				1BBC837E27CBBD0300064B89 /* Files */,
 				1BBC836A27CBBCB300064B89 /* AppDelegate.swift */,
 				1BBC836C27CBBCB300064B89 /* SceneDelegate.swift */,
 				1BBC836E27CBBCB300064B89 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				1BBC837827CBBCB500064B89 /* Info.plist */,
 			);
 			path = "Challenge-Day41";
+			sourceTree = "<group>";
+		};
+		1BBC837E27CBBD0300064B89 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BBC837F27CBBDAC00064B89 /* Words.txt */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				1BBC837727CBBCB500064B89 /* LaunchScreen.storyboard in Resources */,
 				1BBC837427CBBCB500064B89 /* Assets.xcassets in Resources */,
+				1BBC838027CBBDAC00064B89 /* Words.txt in Resources */,
 				1BBC837227CBBCB300064B89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
